@@ -10,7 +10,7 @@
 <body class="font-[Poppins] h-screen overflow-hidden">
     <main class="grid grid-cols-12 h-full">
         {{-- section principale --}}
-         <section class="col-span-12 bg-gray-100 h-full flex flex-col">
+         <section class="col-span-12 bg-gray-100 flex flex-col">
 
             {{-- header --}}
             <header class="bg-gray-800 text-white p-4">
