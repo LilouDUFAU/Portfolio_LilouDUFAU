@@ -2,6 +2,6 @@
 
 @section('content')
     <h1 class="">
-    Hello world!
+        Hello world!
     </h1>
 @endsection
