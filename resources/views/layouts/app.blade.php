@@ -8,12 +8,12 @@
     <title>Lilou DUFAU</title>
 </head>
 <body class="font-[Poppins] h-screen overflow-hidden">
-    <main class="grid grid-cols-12 h-full">
+    <main class="grid grid-cols-12 h-full bg-gradient-to-b from-slate-950 to-slate-800 text-white">
         {{-- section principale --}}
-         <section class="col-span-12 bg-gray-100 flex flex-col">
+         <section class="col-span-12 flex flex-col">
 
             {{-- header --}}
-            <header class="bg-gray-800 text-white p-4">
+            <header class="p-4">
                 @include('layouts.partials.header')
             </header>
 
@@ -23,7 +23,7 @@
             </div>
 
             {{-- footer --}}
-            <footer class="bg-gray-800 text-white p-4">
+            <footer class="p-4">
                 @include('layouts.partials.footer')
             </footer>
 
