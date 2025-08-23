@@ -46,7 +46,7 @@
                 </div>
 
                 {{-- mobile menu (navbar + langues) --}}
-                <div id="mobile-menu" class="hidden flex flex-col space-y-4 p-4 bg-slate-950 md:hidden">
+                <div id="mobile-menu" class="flex flex-col space-y-4 p-4 bg-slate-950 md:hidden">
                     <nav class="flex flex-col space-y-2">
                         <a href="?page=home" class="hover:bg-teal-500 hover:rounded-3xl hover:text-white p-2 {{ request('page') == 'home' ? 'bg-gray-700 text-teal-500 rounded-3xl p-2' : 'text-white' }}"><i class="fa-solid fa-house-chimney"></i><span class="ml-2">Home</span></a>
                         <a href="?page=about" class="hover:bg-teal-500 hover:rounded-3xl hover:text-white p-2 {{ request('page') == 'about' ? 'bg-gray-700 text-teal-500 rounded-3xl p-2' : 'text-white' }}"><i class="fa-solid fa-user"></i><span class="ml-2">About</span></a>
