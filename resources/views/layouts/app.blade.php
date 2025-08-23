@@ -68,7 +68,7 @@
                 </div>
 
                 {{-- footer --}}
-                <footer class="p-4">
+                <footer class="px-2">
                     @include('layouts.partials.footer')
                 </footer>
             </section>
