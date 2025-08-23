@@ -78,6 +78,9 @@
             const burgerMenu = document.getElementById('burger-menu');
             const mobileMenu = document.getElementById('mobile-menu');
 
+            
+            mobileMenu.classList.add('hidden');
+
             burgerMenu.addEventListener('click', function (event) {
             event.stopPropagation();
             mobileMenu.classList.toggle('hidden');
